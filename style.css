@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+   
+}
+#navigation{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+        
+}
+nav a{
+   margin:0px 20px;
+   text-decoration: none;
+   font-weight: 700;
+    color: rgb(116, 30, 30);
+    font-family: "Playwrite DK Uloopet", cursive;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: rgb(204, 47, 47);
+}
+.shop-name{
+    margin-left: -500px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(116, 30, 30);
+    font-family: "Playwrite DK Uloopet", cursive;
+}
+.home-img{
+    width:100%;
+}
+.home-text{
+    font-family: "Playwrite DK Uloopet", cursive;
+    font-size: 50px;
+    font-weight:900 ;
+    margin-top: -180px;
+    text-align: center;
+    color: aliceblue;
+
+}
+.content{
+    margin: 8% 8%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.abt-img{
+    width: 600px;
+    height: 400px;
+    
+}
+.abt-head{
+    font-size: 35px;
+    text-align: center;
+    margin: 40px 0px;
+}
+.abt-content{
+    font-family: "Bona Nova SC", serif;
+    font-weight: 600;
+    width: 450px;
+    margin-left: 90px;
+}
+.abt-para{
+    margin-bottom: 60px;
+    
+}
+
+#show{
+    font-size: 20px;
+   margin-left: 180px;
+    text-decoration: none;
+    color: black;
+    border: solid 3px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+#show:hover{
+    background-color: rgb(123, 30, 30);
+    color: aliceblue;
+}
+#footer{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(75, 13, 13);
+    border: solid 1px;
+    text-align: center;  
+}
+.foot-head{
+    font-family: "Playwrite DK Uloopet", cursive;
+    font-size: 20px;
+    font-weight:700 ;
+    color: aliceblue;
+    margin-top: 30px;
+}
+
+.icons{
+    font-size: 20px;
+    color: aliceblue;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 50px;
+}
+.icons:hover{
+    color: brown;
+    background-color: aliceblue;
+}
+html{
+    scroll-behavior: smooth;
+}
